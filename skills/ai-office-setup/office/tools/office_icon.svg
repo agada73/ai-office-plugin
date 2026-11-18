@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f74ff"/><stop offset="1" stop-color="#6a4be0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3ff"/><stop offset="1" stop-color="#eaf6ff"/>
+    </linearGradient>
+  </defs>
+  <!-- 바탕 -->
+  <rect x="40" y="40" width="944" height="944" rx="210" fill="url(#bg)"/>
+  <rect x="88" y="88" width="848" height="848" rx="170" fill="url(#sky)"/>
+  <!-- 구름 -->
+  <g fill="#fff" opacity=".95">
+    <ellipse cx="260" cy="230" rx="70" ry="34"/><ellipse cx="320" cy="214" rx="56" ry="38"/><ellipse cx="210" cy="238" rx="46" ry="26"/>
+    <ellipse cx="780" cy="190" rx="60" ry="28"/><ellipse cx="830" cy="178" rx="44" ry="30"/>
+  </g>
+  <!-- 바닥 -->
+  <path d="M88 770 H936 V780 Q936 936 766 936 H258 Q88 936 88 780 Z" fill="#cfe8b8"/>
+  <rect x="88" y="760" width="848" height="22" fill="#b6d99a"/>
+  <!-- 건물 -->
+  <rect x="214" y="330" width="596" height="440" rx="18" fill="#fff4e0" stroke="#e2cfae" stroke-width="6"/>
+  <!-- 지붕 -->
+  <path d="M184 340 L512 190 L840 340 Z" fill="#5d4a3c"/>
+  <path d="M214 340 L512 206 L810 340 Z" fill="#7a6250"/>
+  <!-- 간판 -->
+  <rect x="372" y="262" width="280" height="86" rx="20" fill="#7c5cff" stroke="#fff" stroke-width="8"/>
+  <text x="512" y="326" font-size="64" font-weight="900" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" letter-spacing="3">AI</text>
+  <circle cx="440" cy="305" r="0" fill="#fff"/>
+  <!-- 창문 -->
+  <g>
+    <rect x="258" y="400" width="130" height="118" rx="12" fill="#8fb8d8" stroke="#6b94b6" stroke-width="6"/>
+    <rect x="270" y="412" width="106" height="94" rx="6" fill="#ffe9a8"/><path d="M323 412 V506 M270 459 H376" stroke="#8fb8d8" stroke-width="6"/>
+    <rect x="636" y="400" width="130" height="118" rx="12" fill="#8fb8d8" stroke="#6b94b6" stroke-width="6"/>
+    <rect x="648" y="412" width="106" height="94" rx="6" fill="#d6ecfb"/><path d="M701 412 V506 M648 459 H754" stroke="#8fb8d8" stroke-width="6"/>
+    <rect x="258" y="556" width="130" height="118" rx="12" fill="#8fb8d8" stroke="#6b94b6" stroke-width="6"/>
+    <rect x="270" y="568" width="106" height="94" rx="6" fill="#d6ecfb"/><path d="M323 568 V662 M270 615 H376" stroke="#8fb8d8" stroke-width="6"/>
+    <rect x="636" y="556" width="130" height="118" rx="12" fill="#8fb8d8" stroke="#6b94b6" stroke-width="6"/>
+    <rect x="648" y="568" width="106" height="94" rx="6" fill="#ffe9a8"/><path d="M701 568 V662 M648 615 H754" stroke="#8fb8d8" stroke-width="6"/>
+  </g>
+  <!-- 차양과 문 -->
+  <path d="M410 520 H614 L640 586 H384 Z" fill="#ff7a59"/>
+  <path d="M410 520 L398 586 M450 520 L440 586 M490 520 L484 586 M530 520 L530 586 M570 520 L576 586 M610 520 L620 586" stroke="#fff" stroke-width="14" opacity=".9"/>
+  <path d="M384 586 H640 Q640 610 624 610 Q608 610 608 586 Q608 610 592 610 Q576 610 576 586 Q576 610 560 610 Q544 610 544 586 Q544 610 528 610 Q512 610 512 586 Q512 610 496 610 Q480 610 480 586 Q480 610 464 610 Q448 610 448 586 Q448 610 432 610 Q416 610 416 586 Q416 610 400 610 Q384 610 384 586 Z" fill="#e8553a"/>
+  <rect x="436" y="618" width="152" height="152" rx="10" fill="#d8ad7f" stroke="#a8784c" stroke-width="8"/>
+  <rect x="456" y="638" width="50" height="132" fill="#c99b6d"/><rect x="518" y="638" width="50" height="132" fill="#c99b6d"/>
+  <circle cx="500" cy="710" r="7" fill="#fff4e0"/><circle cx="524" cy="710" r="7" fill="#fff4e0"/>
+  <!-- 화분 -->
+  <g>
+    <path d="M232 770 L232 726 Q232 700 258 700 H290 Q316 700 316 726 V770 Z" fill="#b5754c"/>
+    <circle cx="274" cy="670" r="46" fill="#43a047"/><circle cx="244" cy="696" r="30" fill="#66bb6a"/><circle cx="306" cy="690" r="32" fill="#388e3c"/><circle cx="276" cy="634" r="26" fill="#81c784"/>
+    <path d="M708 770 L708 726 Q708 700 734 700 H766 Q792 700 792 726 V770 Z" fill="#f4c542"/>
+    <path d="M730 700 L722 640 M750 700 L752 610 M772 700 L784 650" stroke="#43a047" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="722" cy="632" r="20" fill="#ff6fa5"/><circle cx="752" cy="600" r="22" fill="#fff"/><circle cx="786" cy="642" r="20" fill="#ff9f43"/>
+    <circle cx="722" cy="632" r="7" fill="#ffd54f"/><circle cx="752" cy="600" r="8" fill="#ffd54f"/><circle cx="786" cy="642" r="7" fill="#ffd54f"/>
+  </g>
+  <!-- 블록 인형 직원 -->
+  <g transform="translate(640 784)">
+    <ellipse cx="0" cy="0" rx="56" ry="16" fill="rgba(0,0,0,.18)"/>
+    <rect x="-34" y="-70" width="30" height="70" rx="6" fill="#2d3b66"/><rect x="4" y="-70" width="30" height="70" rx="6" fill="#2d3b66"/>
+    <path d="M-48 -64 L-36 -150 L36 -150 L48 -64 Z" fill="#ff8a3d"/>
+    <path d="M-36 -150 L-62 -92 L-46 -86 L-28 -128 Z M36 -150 L62 -92 L46 -86 L28 -128 Z" fill="#ff8a3d"/>
+    <circle cx="-56" cy="-84" r="13" fill="#ffd43b"/><circle cx="56" cy="-84" r="13" fill="#ffd43b"/>
+    <rect x="-16" y="-168" width="32" height="22" fill="#ffd43b"/>
+    <rect x="-40" y="-248" width="80" height="84" rx="20" fill="#ffd43b" stroke="#e0b100" stroke-width="4"/>
+    <path d="M-42 -222 Q-46 -268 0 -270 Q46 -268 42 -222 L34 -240 Q0 -256 -34 -240 Z" fill="#6d3b1f"/>
+    <circle cx="-14" cy="-212" r="6" fill="#222"/><circle cx="14" cy="-212" r="6" fill="#222"/>
+    <path d="M-16 -192 Q0 -176 16 -192 Z" fill="#fff" stroke="#222" stroke-width="4"/>
+  </g>
+</svg>

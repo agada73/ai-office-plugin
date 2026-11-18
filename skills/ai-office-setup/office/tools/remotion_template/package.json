@@ -1,0 +1,14 @@
+{
+  "name": "office-remotion-template",
+  "private": true,
+  "description": "사무실 직원용 Remotion 틀 — props.json 만 바꿔서 자막·카드 모션 영상을 만들어요",
+  "scripts": {
+    "render": "remotion render src/index.ts Slides out.mp4 --props=props.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.542",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.542"
+  }
+}

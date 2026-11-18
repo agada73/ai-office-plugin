@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 파트너스 사무실</title>
+<link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#ece7df">
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="AI 사무실"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="notice" class="notice" hidden></div>
+<main class="frame">
+  <header class="top">
+    <span class="brand">🏢 <span id="company">AI 파트너스</span> <span class="floors" id="floors"><small>· 본사 1층</small></span></span>
+    <span class="meta"><span id="fakeBadge" class="fake" hidden>연습 모드</span> <span id="headMeta"></span></span>
+  </header>
+  <div class="grid">
+    <div class="scene"><svg id="scene" viewBox="0 0 10 10" aria-label="사무실 그림"></svg></div>
+    <div class="splitter" id="splitter" role="separator" tabindex="0" aria-label="사무실과 현황판 크기 조절" title="끌어서 크기 조절 · 두 번 누르면 원래대로"></div>
+    <aside class="boardwrap"><div class="board" id="board">불러오는 중…</div></aside>
+  </div>
+  <section class="cast" id="cast" aria-label="직원 소개"></section>
+</main>
+<div id="overlay" class="overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="mhead"><b id="mtitle"></b><button id="mclose" aria-label="닫기">✕</button></div>
+    <div class="mbody" id="mbody"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.claude/settings.local.json
+.env
+data/
+산출물_outputs/
+.DS_Store
+tools/avatar_cutout
+최종본_final/
+자료실_library/
+tools/models/

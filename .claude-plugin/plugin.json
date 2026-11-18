@@ -1,0 +1,9 @@
+{
+  "name": "ai-office",
+  "version": "1.0.0",
+  "description": "AI 직원 15명이 일하는 게임형 사무실을 내 맥에 세워 주는 플러그인. 일을 맡기고, 결재하고, 보고를 받아요 (강의자료·강의 영상·홈페이지·아이디어 회의·아침 일정 보고).",
+  "author": {
+    "name": "AI 파트너스"
+  },
+  "keywords": ["ai-office", "agents", "education", "heygen", "korean"]
+}

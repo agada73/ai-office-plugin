@@ -1,0 +1,18 @@
+{
+  "passcode": "",
+  "remote": false,
+  "input_dirs": [],
+  "auto_approve": {"plan": true, "step": true, "final": true, "credit_limit": 700},
+  "secretary": {"enabled": true, "morning": "08:00"},
+  "study": {"time": "14:00"},
+  "heygen": {
+    "avatar_id": "",
+    "avatar_name": "",
+    "voice_id": "",
+    "voice_name": "",
+    "resolution": "1080p",
+    "aspect_ratio": "16:9",
+    "pronounce": {},
+    "voice_backup": {"engine": "higgs", "ref_media": "", "ref_note": "힉스필드에 올린 내 목소리 60~90초 (비워 두면 대비 길을 쓰지 않음)"}
+  }
+}

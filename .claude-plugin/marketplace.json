@@ -1,0 +1,17 @@
+{
+  "name": "ai-office",
+  "owner": {
+    "name": "AI 파트너스"
+  },
+  "metadata": {
+    "description": "교육자를 위한 AI 직원 사무실 플러그인 모음"
+  },
+  "plugins": [
+    {
+      "name": "ai-office",
+      "source": "./",
+      "description": "AI 직원 15명이 일하는 게임형 사무실을 내 맥에 세워 주는 플러그인",
+      "version": "1.0.0"
+    }
+  ]
+}
